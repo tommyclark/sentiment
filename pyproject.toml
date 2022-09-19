@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "sentiment"
+version = "0.1.0"
+description = ""
+authors = ["Tommy Clark <tommy.clark@outlook.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+newspaper3k = "0.2.8"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+sentiment = "sentiment.main:main"
